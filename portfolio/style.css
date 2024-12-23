@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #1f1f21; */
+}
+body{
+    background-color: #1f1f21 !important;
+    color: beige  !important;
+}
+
+a{
+    text-decoration: none  !important;
+    color: #7BAF96 !important;
+}
+
+section{
+    margin: 0em 0em;
+    /* background-color: #39393c;
+    color: white; */
+    height: 35%;
+}
+
+.navbar{
+     height: 0.75em;
+     width: 100%;
+     height: auto;
+     position: relative;
+     top: 0px;
+}
+
+
+/* .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    padding-right: 20em;
+} */
+/* #navfooter{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+} */
+
+/* .nav{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+#logoimg{
+    float: left;
+    /* width:50%; */
+}
+
+.imglogo{
+    width: 130px;
+    height: 130px;
+}
+
+.Info{
+
+    background-color: #1f1f21;
+    color: white;
+}
+.Info h1{
+    color: #27ae60;
+    /* color: #81b29a; */
+}
+
+.infoflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    /* height: auto; */
+   min-height: 700px;
+}
+.infodiv{
+    padding: 0.2em 5em;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+    background-color: transparent;
+}
+
+.frist{
+    position: absolute;
+    top: 0em;
+}
+.infoo{animation-timing-function: linear;}
+.infot{animation-timing-function: ease;}
+.infoth{animation-timing-function: ease-in;}
+.infof{animation-timing-function: ease-out;}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 150px; left: 50px;}
+  } 
+
+
+.button{
+    border-radius: 20px;
+    width: 10em;
+    height: 2.5em;
+    background-color: #a59b9b;
+    color: white;
+}
+
+.aboutme{
+    background-color:#1f1f21;
+    color: #FEF3E2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 550px;
+    justify-content: center;
+
+}
+.aboutme h2{
+    color: #7BAF96;
+}
+
+
+.aboutparagraph{
+    padding-top: 5em;
+}
+.infoimg{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example {
+    0%   {background-color:rgba(255, 0, 0, 0); right:0px; top:0px;}
+    25%  {background-color:rgba(255, 255, 0, 0); right:200px; top:0px;}
+    50%  {background-color:rgba(0, 0, 255, 0); right:200px; top:400px;}
+    75%  {background-color:rgba(0, 128, 0, 0); right:0px; top:400px;}
+    100% {background-color:rgba(255, 0, 0, 0); right:0px; top:0px;}
+  }
+
+
+  /* .aboutimg{
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  } */
+
+.aboutparagraph{
+    text-align: center;
+
+}
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 60px;
+    padding: 25px 0px 45px 0px;
+    margin: 5em;
+    text-align: center;
+}
+
+.skills{
+    background-color: rgb(224, 224, 224);
+    color: #626264;
+}
+/* .skillel{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 60px 60px;
+    padding: 25px 0px 30px 0px;
+    margin: 5em;
+}
+
+.soskill{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 60px 60px;
+    padding: 25px 0px 30px 0px;
+    margin: 5em;
+} */
+
+.skillel{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 16em;
+    height: 13em;
+    box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
+    border-radius: 10px;
+    transition: width 2s, height 1s;
+}
+.skillel:hover{
+        background-color: rgba(156, 179, 125, 0.445);
+        width:20em;
+        height: 17em;
+        color:  beige;
+}
+
+
+
+.soskill{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 16em;
+    height: 13em;
+    box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
+    border-radius: 10px;
+    transition: width 2s, height 1s;
+
+}
+.soskill:hover{
+    background-color: rgba(230, 213, 169, 0.445);
+    width:20em;
+    height: 17em;
+    color:  beige;
+}
+
+
+
+ h2{
+    text-align: center;
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.project{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 25em;
+    height: 34.5em;
+    /* box-shadow:  0 5px 25px rgba(1, 1, 1, 25%); */
+    box-shadow:  0 5px 25px rgba(123, 175, 150, 50%);
+    border-radius: 18px;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.8 ease;
+    color: #626264;
+    /* transition: width 2s, height 1s; */
+}
+
+.project:hover{
+    transform: scale(1.25);
+    border-radius: 10px solid #7BAF96 ;
+    /* background-color: rgba(152, 188, 157, 0.445);
+    width:28em;
+    height:36em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #707472;
+    font-size: 1.5em; */
+}
+
+
+.form{
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    width: 50%;
+    /* height: 23em; */
+    /* box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
+    border-radius: 10px; */
+    padding: 0 15em 15px 0;
+    padding-left: 15em;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%; */
+    /* background-color:  rgba(162, 203, 169 , 50%); */
+  
+ 
+}
+
+table{
+    background-color:  rgba(186, 204, 195, 0.7);
+}
+
+/* form{
+    /* display: grid;
+    /* grid-template-columns: auto auto ; */
+    /* grid-template-columns: 10px 30px 10px 30px ;
+    gap: 20px 5px;
+    justify-items: end;
+    grid-template-rows: auto auto auto auto;
+    justify-content: end;
+    height: 200px;
+    width: 60%; */
+
+
+
+.contact{
+    box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
+}
+
+
+.contactdata{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.inTouch{
+    
+    text-align: center;
+    /* background-color: rgba(162, 203, 169, 35%); */
+    width: 45%;
+    height: 22em;
+    /* box-shadow:  0 5px 25px rgba(1, 1, 1, 35%); */
+    border-radius: 10px;
+    padding-left:  25px;
+    border: 2px solid rgb(121, 166, 121);
+
+}
+
+.contactflex{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.footer{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    min-height: 200px;
+    /* height: 250px; */
+    /* height:200px ; */
+    position: relative;
+
+}
+
+
+
+
+.logo{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; */
+    position: relative;
+
+}
+
+.dataflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 7em;
+}
+
+
+.privacy{
+    /* text-align: center; */
+    padding-top: 0.5em;
+}
+
+
+#footerlogo{
+    position: absolute;
+    top: 0.5em;
+    width: auto;
+}
+
+.map{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: end; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.copyrights{
+    text-align: center;
+    background-color: #2a2a2c;;
+    color: white;
+    width: 100%;
+    height: 25px;
+}
+
+
+.copyrights span{
+    font-weight: 800;
+    color: rgb(95, 146, 75);
+}
+
+.socialIcons{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    text-align: left;
+    padding-left: 1em;
+    font-size: 2em;
+    width: 25%;
+}
+
+/* 
+.buttons{
+    box-shadow: 0 0 5px rgb(114, 249, 42),
+    0 0 25px  rgb(114, 249, 42);
+    transform: 0.75s ease;
+}
+
+.buttons:hover{
+    box-shadow: 0 0 5px rgb(114, 249, 42),
+    0 0 25px  rgb(114, 249, 42), 0 0 50px rgb(114, 249, 42),
+    0 0 100px  rgb(114, 249, 42) 0 0 200px rgb(114, 249, 42),
+ 
+} */
+
+
+
+@media screen and (max-width: 600px) {
+   
+}
