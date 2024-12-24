@@ -4,20 +4,28 @@
     /* background-color: #1f1f21; */
 }
 body{
-    /* background-color: #1f1f21 !important; */
+    background-color: #4C585B !important;
     /* color: beige  !important;
     width: 100% !important; */
 }
 
-a{
+.Info a {
     text-decoration: none  !important;
-    color: #7BAF96 !important;
+    color: #1f1f21 !important;
+    font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none  !important;
+    color: #ECEBDE !important;
+    font-weight: bold;
 }
 
 section{
     margin: 0em 0em;
     /* background-color: #39393c;
     color: white; */
+    width: 100%;
     height: 35%;
 }
 
@@ -65,12 +73,12 @@ section{
 }
 
 .Info{
-    background-color: #A6AEBF;
+    background-color: #4C585B;
     /* background-color: #1f1f21; */
     color: white;
 }
 .Info h1{
-    color: #27ae60;
+    color: #f6f5f5;
     /* color: #81b29a; */
 }
 
@@ -99,10 +107,10 @@ section{
 .infoth{animation-timing-function: ease-in;}
 .infof{animation-timing-function: ease-out;}
 
-/* @keyframes mymove {
+@keyframes mymove {
     from {top: 0px;}
     to {top: 150px; left: 50px;}
-  }  */
+  } 
 
 
 /* .button{
@@ -124,7 +132,7 @@ section{
 
 }
 .aboutme h2{
-    color: #7BAF96;
+    color: #7E99A3;
 }
 
 
@@ -141,9 +149,9 @@ section{
 
 @keyframes example {
     0%   {background-color:rgba(255, 0, 0, 0); right:0px; top:0px;}
-    25%  {background-color:rgba(255, 255, 0, 0); right:175px; top:0px;}
-    50%  {background-color:rgba(0, 0, 255, 0); right:175px; top:250px;}
-    75%  {background-color:rgba(0, 128, 0, 0); right:0px; top:250px;}
+    25%  {background-color:rgba(255, 255, 0, 0); right:200px; top:0px;}
+    50%  {background-color:rgba(0, 0, 255, 0); right:200px; top:225px;}
+    75%  {background-color:rgba(0, 128, 0, 0); right:0px; top:225px;}
     100% {background-color:rgba(255, 0, 0, 0); right:0px; top:0px;}
   }
 
@@ -161,6 +169,7 @@ section{
 
 .aboutparagraph{
     text-align: center;
+    font-size: 1.25em;
 
 }
 .skill{
@@ -168,15 +177,14 @@ section{
     grid-template-columns: auto auto auto auto;
     justify-content: center;
     align-items: center;
-    gap: 60px 60px;
+    gap: 2em 2em;
     padding: 25px 0px 45px 0px;
-    margin: 5em;
+    margin: 1.5em;
     text-align: center;
-    width: 100%;
 }
 
 .skills{
-    background-color: rgb(224, 224, 224);
+    background-color: #D3DEDC;
     color: #626264;
 }
 /* .skillel{
@@ -202,14 +210,14 @@ section{
 .skillel{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 16em;
-    height: 13em;
+    width: 14em;
+    height: 12em;
     box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
     border-radius: 10px;
     transition: width 2s, height 1s;
 }
 .skillel:hover{
-        background-color: rgba(156, 179, 125, 0.445);
+        background-color: #4C585B;
         width:20em;
         height: 17em;
         color:  beige;
@@ -220,18 +228,18 @@ section{
 .soskill{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 16em;
-    height: 13em;
+    width: 14em;
+    height: 12em;
     box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
     border-radius: 10px;
     transition: width 2s, height 1s;
 
 }
 .soskill:hover{
-    background-color: rgba(230, 213, 169, 0.445);
+    background-color:#ECEBDE;
     width:20em;
     height: 17em;
-    color:  beige;
+    color:  #4C585B;
 }
 
 
@@ -251,8 +259,8 @@ section{
 .project{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 25em;
-    height: 34.5em;
+    width: 24em;
+    height: 33.25em;
     /* box-shadow:  0 5px 25px rgba(1, 1, 1, 25%); */
     box-shadow:  0 5px 25px rgba(123, 175, 150, 50%);
     border-radius: 18px;
@@ -283,12 +291,13 @@ section{
     /* box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
     border-radius: 10px; */
     padding: 0 15em 15px 0;
-    padding-left: 15em;
+    padding-left: 13em;
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 50%; */
     /* background-color:  rgba(162, 203, 169 , 50%); */
+    color: #626264;
   
  
 }
@@ -312,6 +321,7 @@ table{
 
 .contact{
     box-shadow:  0 5px 25px rgba(1, 1, 1, 35%);
+    background-color:#D3DEDC;
 }
 
 
@@ -331,9 +341,46 @@ table{
     /* box-shadow:  0 5px 25px rgba(1, 1, 1, 35%); */
     border-radius: 10px;
     padding-left:  25px;
-    border: 2px solid rgb(121, 166, 121);
+    border: 3px solid #4C585B;
+    color: #4C585B;
+    transition: all 0.8s ease-in-out;
 
 }
+
+.inTouch a{
+    text-decoration: none;
+    color: #1f1f21;
+    font-weight: bold;
+}
+
+
+.inTouch:hover{
+    transform: translateY(-px);
+    background: transparent;
+    background-color:#4C585B;
+    color: #D3DEDC;
+}
+
+/* .buttonone{
+    background: #1f1f21;
+    border: 1px solid #1f1f21;
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contactflex{
     /* display: flex;
@@ -354,7 +401,8 @@ table{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; */
-    background-color: rgb(224, 224, 224);
+    /* background-color:#ECEBDE; */
+    background-color: #212529;
     width: 100%;
     min-height: 200px;
     /* height: 250px; */
@@ -415,7 +463,7 @@ table{
 
 .copyrights span{
     font-weight: 800;
-    color: rgb(95, 146, 75);
+    color: #C9DABF;
 }
 
 .socialIcons{
@@ -436,7 +484,7 @@ table{
     display: inline-block;
     background-color: #7BAF96;
     color: white;
-    border: 4px solid #7BAF96;
+    border: 4px solid #c1e4d2;
     border-radius: 8px;
     width: 10em;
     height: 2.5em;
@@ -463,6 +511,23 @@ table{
 }
 
 
+.formbutton{
+    display: inline-block;
+    background-color: #1f1f21; 
+    color: white;
+    border: 4px solid #d8f9e4;
+    border-radius: 8px;
+    width: 10em;
+    height: 2.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.formbutton:hover{
+    color: #7BAF96;
+    background-color: white;
+    border: 2px solid white;
+}
+
 /* 
 .buttons{
     box-shadow: 0 0 5px rgb(114, 249, 42),
@@ -479,7 +544,7 @@ table{
 
 @media screen and (max-width: 600px) {
 
-    Info{
+    .Info{
         
         text-align: left;
     }
@@ -494,13 +559,28 @@ table{
     }
 
     .infodiv{
-        padding: 0px 1.25px;
+        /* padding: 0px 1.25px; */
+        padding: 0;
+        font-size: 11px;
     }
     .skill{
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 5px;
+        grid-template-columns: 0.25fr;
+        column-gap: 0.25px;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin: 0;
     }
+
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2em 2em;
+    padding: 25px 0px 45px 0px;
+    margin: 1.5em;
+    text-align: center; */
    .inTouch{
     width: 100%;
    }
@@ -519,5 +599,30 @@ table{
    .map{
     display: none;
    }
+   
 
+   .formbutton{
+    border-radius: 2px;
+    width: 2.5em;
+    height: 2em;
+    margin: 0;
+   }
+
+   /* .skillel{
+    width: 1em;
+    height:2em;
+   }
+
+   .soskill{
+    width: 1em;
+    height:2em;
+   }
+
+   .skillel p{
+    display: none;
+   }
+   
+   .soskill p{
+    display: none;
+   } */
 }
